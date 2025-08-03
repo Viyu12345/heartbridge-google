@@ -43,7 +43,7 @@ $(document).ready(function() {
                     console.log('No new audio found');
                 }
             });
-        }, 7000); // Poll every 2 seconds to make it more responsive
+        }, 7000);
     }
 
     // Input voice button handler
@@ -53,3 +53,4 @@ $(document).ready(function() {
         });
     });
 });
+
